@@ -1,9 +1,8 @@
 
-markdown
-# HR Analytics Challenge - Machine Learning para Previsão de Atrito
+# HR Analytics Challenge - Machine Learning para Previsão de Attrition
 
 ## 📌 Visão Geral do Projeto
-Solução preditiva para reduzir em 20-30% a taxa de atrito (attrition) na TechCorp Brasil, com economia estimada de R$ 9-13,5 milhões/ano.
+Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasil, com economia estimada de R$ 9-13,5 milhões/ano.
 
 **Desafio Empresarial**:  
 35% de rotatividade voluntária em 12 meses (R$ 45 milhões em custos)

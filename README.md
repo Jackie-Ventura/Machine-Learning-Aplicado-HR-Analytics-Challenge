@@ -80,3 +80,7 @@ print(
 | Samuel Batista de Oliveira| 10738597  |
 | Marcus Moreira            | 10734633  |
 | Jackson Ventura           | 10737764  |
+
+
+## 📄 Licença
+Este projeto está licenciado sob a Licença MIT.

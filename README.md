@@ -72,3 +72,11 @@ print(
 - Implementar dashboard Power BI/Tableau
 - Testar técnicas avançadas de balanceamento
 - Integrar com sistema de RH via API
+
+## 👤 Equipe
+| 👤 Nome                   | 🆔 RA      | 🛠️ Função            |
+|---------------------------|-----------|----------------------|
+| Fábio Silva de Medeiros   | 10734804  | 📊 Análise de Dados  |
+| Samuel Batista de Oliveira| 10738597  | 🤖 Modelagem Preditiva |
+| Marcus Moreira            | 10734633  | ⚙️ Engenharia de Features |
+| Jackson Ventura           | 10737764  | 📈 Visualização      |

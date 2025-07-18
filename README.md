@@ -38,12 +38,19 @@ pip install -r requirements.txt
 python src/main_pipeline.py
 
 ## 🗂️ Estrutura do Projeto
-<pre style="background-color:#f5f5f5;padding:10px;border-radius:5px">
-<code>
-<span style="color:#9c9c9c">hr-analytics/</span>
-├── <span style="color:#6a9fb5">data/</span>
-│   ├── <span style="color:#6a9fb5">raw/</span>            <span style="color:#999"># Dados brutos</span>
-│   └── <span style="color:#6a9fb5">processed/</span>      <span style="color:#999"># Dados tratados</span>
-└── <span style="color:#6a9fb5">README.md</span>
-</code>
-</pre>
+```
+hr-analytics/
+├── data/
+│   ├── raw/            # Dados brutos
+│   └── processed/      # Dados tratados
+├── notebooks/
+│   ├── 1_EDA.ipynb
+│   ├── 2_Modelagem.ipynb
+│   └── 3_Resultados.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   └── visualize.py
+├── README.md
+└── requirements.txt
+```

@@ -9,10 +9,8 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
 
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem**: Python 3.10+
-- **Principais Bibliotecas**:
-  ```python
-  pandas, numpy, scikit-learn, xgboost, catboost, shap, matplotlib
-Ferramentas: Jupyter Notebook, Git, VS Code
+- **Principais Bibliotecas**: python, pandas, numpy, scikit-learn, xgboost, catboost, shap, matplotlib
+- **Ferramentas**: Jupyter Notebook, Git, VS Code
 
 📊 Métricas dos Modelos
 Modelo	Acurácia	Precisão	Recall	F1-Score	AUC-ROC

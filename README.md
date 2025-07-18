@@ -27,14 +27,12 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
   
 ## 🚀 Como Executar
 
-1. Clone o repositório:
+## 1. Clone o repositório:
    ```bash
    git clone (https://github.com/Jackie-Ventura/Machine-Learning-Aplicado-HR-Analytics-Challenge.git)
-
-## Instale as dependências:
+## 2. Instale as dependências:
 pip install -r requirements.txt
-
-## Execute o pipeline completo:
+## 3. Execute o pipeline completo:
 python src/main_pipeline.py
 
 ## 🗂️ Estrutura do Projeto

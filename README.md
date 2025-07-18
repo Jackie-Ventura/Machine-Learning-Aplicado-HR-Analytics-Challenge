@@ -32,4 +32,23 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
    git clone (https://github.com/Jackie-Ventura/Machine-Learning-Aplicado-HR-Analytics-Challenge.git)
 
 ## Instale as dependências:
-   pip install -r requirements.txt
+pip install -r requirements.txt
+
+## Execute o pipeline completo:
+python src/main_pipeline.py
+
+## 🗂️ Estrutura do Projeto
+hr-analytics/
+├── data/
+│   ├── raw/            # Dados brutos
+│   └── processed/      # Dados tratados
+├── notebooks/
+│   ├── 1_EDA.ipynb
+│   ├── 2_Modelagem.ipynb
+│   └── 3_Resultados.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   └── visualize.py
+├── README.md
+└── requirements.txt

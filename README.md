@@ -29,13 +29,13 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
   
 ## 🚀 Como Executar
 
-1. Clone o repositório:
+1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/hr-analytics-challenge.git
-2. Instale as dependências:
+2. **Instale as dependências:**
    ```bash
     pip install -r requirements.txt
-3. Execute o Pipeline completo
+3. **Execute o Pipeline completo**
    ```bash
     python src/main_pipeline.py
 

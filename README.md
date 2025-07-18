@@ -24,15 +24,18 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
 - **StagnationRisk** (22% impacto)
 - **OverTime_Binary** (3× maior risco)
 - **SalaryRatio** (+18% risco)
+
+## Link do notebook##: https://colab.research.google.com/drive/19vfiyv_UfGsepKmytHu2COwNkgEfXVoP?usp=sharing
   
 ## 🚀 Como Executar
 
-## 1. Clone o repositório:
+**1. Clone o repositório:**
    ```bash
    git clone (https://github.com/Jackie-Ventura/Machine-Learning-Aplicado-HR-Analytics-Challenge.git)
-## 2. Instale as dependências:
+**2. Instale as dependeências** 
+   ```bash
 pip install -r requirements.txt
-## 3. Execute o pipeline completo:
+**3. Execute o pipeline completo:**
 python src/main_pipeline.py
 
 ## 🗂️ Estrutura do Projeto

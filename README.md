@@ -39,18 +39,29 @@ python src/main_pipeline.py
 
 ## 🗂️ Estrutura do Projeto
 hr-analytics/
+
 ├── data/
 
 │   ├── raw/            # Dados brutos
 
 │   └── processed/      # Dados tratados
+
 ├── notebooks/
+
 │   ├── 1_EDA.ipynb
+
 │   ├── 2_Modelagem.ipynb
+
 │   └── 3_Resultados.ipynb
+
 ├── src/
+
 │   ├── preprocessing.py
+
 │   ├── train_model.py
+
 │   └── visualize.py
+
 ├── README.md
+
 └── requirements.txt

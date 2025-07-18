@@ -21,11 +21,9 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
 | CatBoost             | 78%      | 36%      | 53%    | 0.43     | 0.78    |
 
 🔍 Variáveis Mais Relevantes (SHAP)
-StagnationRisk (22% impacto)
-
-OverTime_Binary (3× maior risco)
-
-SalaryRatio (+18% risco)
+- **StagnationRisk** (22% impacto)
+- **OverTime_Binary** (3× maior risco)
+- **SalaryRatio** (+18% risco)
 
 🚀 Como Executar
 Clone o repositório:

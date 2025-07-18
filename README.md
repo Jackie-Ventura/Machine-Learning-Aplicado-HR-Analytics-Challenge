@@ -24,9 +24,9 @@ Solução preditiva para reduzir em 20-30% a taxa de attrition na TechCorp Brasi
 - **StagnationRisk** (22% impacto)
 - **OverTime_Binary** (3× maior risco)
 - **SalaryRatio** (+18% risco)
-
+  
 ## 🚀 Como Executar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Jackie-Ventura/Machine-Learning-Aplicado-HR-Analytics-Challenge.git
+   git clone [https://github.com/seu-usuario/hr-analytics-challenge.git](https://github.com/Jackie-Ventura/Machine-Learning-Aplicado-HR-Analytics-Challenge.git)

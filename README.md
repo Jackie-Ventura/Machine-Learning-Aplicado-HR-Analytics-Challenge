@@ -1,159 +1,81 @@
 # Machine-Learning-Aplicado-HR-Analytics-Challenge
-HR Analytics Challenge - Machine Learning para Previsão de Atrito (Attrition)
-Visão Geral do Projeto
-Este projeto visa desenvolver um modelo preditivo de machine learning para ajudar a TechCorp Brasil a abordar sua alta taxa de atrito de funcionários (35% em 12 meses), que resultou em perdas financeiras significativas (R$ 45 milhões anualmente). Nossa solução combina análise exploratória de dados, algoritmos avançados como XGBoost e interpretação SHAP para identificar funcionários em risco com até 6 meses de antecedência.
 
-Principais Características
-Modelagem Preditiva: Utiliza XGBoost, Random Forest e Regressão Logística para prever risco de atrito
+markdown
+# HR Analytics Challenge - Machine Learning para Previsão de Atrito
 
-Variáveis Críticas Identificadas: Hora Extra, Tempo na Empresa, Satisfação no Trabalho, Equilíbrio Vida-Trabalho, Relação com o Gestor
+![Banner de People Analytics](https://exemplo.com/banner-hr-analytics.jpg) *(opcional: incluir link para imagem real)*
 
-Interpretabilidade: Valores SHAP explicam as previsões do modelo
+## 📌 Visão Geral do Projeto
+Solução preditiva para reduzir em 20-30% a taxa de atrito (attrition) na TechCorp Brasil, com economia estimada de R$ 9-13,5 milhões/ano.
 
-Recomendações Estratégicas: Insights acionáveis para intervenções de RH
+**Desafio Empresarial**:  
+35% de rotatividade voluntária em 12 meses (R$ 45 milhões em custos)
 
-Membros da Equipe
-Fábio Silva de Medeiros (RA 10734804)
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem**: Python 3.10+
+- **Principais Bibliotecas**:
+  ```python
+  pandas, numpy, scikit-learn, xgboost, catboost, shap, matplotlib
+Ferramentas: Jupyter Notebook, Git, VS Code
 
-Samuel Batista de Oliveira (RA 10738597)
-
-Marcus Moreira (RA 10734633)
-
-Jackson Ventura (RA 10737764)
-
-Metodologia
-Análise Exploratória de Dados (EDA)
-
-Estatísticas descritivas e identificação de padrões
-
-Detecção de outliers usando método IQR
-
-Análise de correlação entre variáveis
-
-Engenharia de Features
-
-Criação de novas métricas:
-
-Razão Salarial: Salário atual vs. média do cargo
-
-Índice de Crescimento: Tempo na empresa vs. número de promoções
-
-Risco de Estagnação: Anos desde última promoção × nível hierárquico
-
-Desenvolvimento do Modelo
-
-Teste de quatro algoritmos:
-
-Regressão Logística
-
-Random Forest
-
-XGBoost
-
-CatBoost
-
-Otimização usando GridSearchCV com validação cruzada de 5 folds
-
-Foco em F1-Score e AUC-PR para dados desbalanceados
-
-Avaliação do Modelo
-
-Métricas-chave: Precisão, Recall, F1-Score, AUC-ROC
-
-Valores SHAP para interpretação da importância das variáveis
-
-Resultados
-Modelo	Acurácia	Precisão (Classe 1)	Recall (Classe 1)	F1-Score (Classe 1)	AUC-ROC
+📊 Métricas dos Modelos
+Modelo	Acurácia	Precisão	Recall	F1-Score	AUC-ROC
 LogisticRegression	76%	36%	66%	0.46	0.80
 RandomForest	84%	46%	13%	0.20	0.81
 XGBoost	87%	72%	28%	0.40	0.77
 CatBoost	78%	36%	53%	0.43	0.78
-Variáveis Mais Preditivas:
+🔍 Variáveis Mais Relevantes (SHAP)
+StagnationRisk (22% impacto)
 
-Risco de Estagnação (22% de contribuição para o risco de atrito)
+OverTime_Binary (3× maior risco)
 
-Hora Extra Binária (3x maior risco para funcionários com horas extras)
+SalaryRatio (+18% risco)
 
-Razão Salarial (18% aumento de risco para salários abaixo da média)
-
-Impacto nos Negócios
-Resultados Esperados:
-
-Redução de 20-30% no atrito no primeiro ano
-
-Economia estimada de R$ 9-13,5 milhões
-
-Recomendações Estratégicas:
-
-Planos de retenção personalizados (ajustes de carga horária, mentorias)
-
-Programas de desenvolvimento de carreira para funcionários estagnados
-
-Revisões salariais para funcionários de alto risco
-
-Monitoramento contínuo com atualizações trimestrais do modelo
-
-Estrutura do Repositório
-text
-HR-Analytics-Challenge/
-├── data/                    # Dados brutos e processados
-├── notebooks/               # Jupyter notebooks com análises
-│   ├── EDA.ipynb            # Análise Exploratória de Dados
-│   ├── Feature_Engineering.ipynb
-│   ├── Model_Training.ipynb
-│   └── Model_Evaluation.ipynb
-├── src/                     # Código fonte
-│   ├── preprocessing.py     # Limpeza de dados e engenharia de features
-│   ├── models.py            # Funções de treinamento de modelos
-│   └── visualization.py     # Funções de visualização
-├── reports/                 # Relatórios e visualizações geradas
-├── README.md                # Este arquivo
-└── requirements.txt         # Dependências Python
-Como Começar
+🚀 Como Executar
 Clone o repositório:
 
 bash
-git clone https://github.com/seuusuario/HR-Analytics-Challenge.git
-cd HR-Analytics-Challenge
+git clone https://github.com/seu-usuario/hr-analytics-challenge.git
 Instale as dependências:
 
 bash
 pip install -r requirements.txt
-Execute os Jupyter notebooks no diretório notebooks/ para reproduzir a análise.
+Execute o pipeline completo:
 
-Dependências
-Python 3.8+
+bash
+python src/main_pipeline.py
+🗂️ Estrutura do Projeto
+text
+hr-analytics/
+├── data/
+│   ├── raw/            # Dados brutos
+│   └── processed/      # Dados tratados
+├── notebooks/
+│   ├── 1_EDA.ipynb
+│   ├── 2_Modelagem.ipynb
+│   └── 3_Resultados.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   └── visualize.py
+├── README.md
+└── requirements.txt
+📌 Principais Insights
+python
+# Exemplo de insight acionável
+high_risk = df[(df['StagnationRisk'] > 15) & 
+               (df['SalaryRatio'] < 0.8)]
+print(f"{len(high_risk)} funcionários com 83% de risco de atrito")
+📅 Próximos Passos
+Implementar dashboard Power BI/Tableau
 
-pandas
+Testar técnicas avançadas de balanceamento
 
-numpy
+Integrar com sistema de RH via API
 
-scikit-learn
-
-xgboost
-
-catboost
-
-shap
-
-matplotlib
-
-seaborn
-
-imbalanced-learn
-
-Trabalhos Futuros
-Implementar SMOTE para melhor tratamento de dados desbalanceados
-
-Desenvolver um painel interativo para equipes de RH
-
-Expandir o conjunto de variáveis com dados adicionais de funcionários
-
-Implementar sistema de monitoramento do modelo para acompanhamento de desempenho
-
-Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
-
-Para quaisquer dúvidas, entre em contato com os membros da equipe do projeto.
-
-
+👥 Equipe
+Nome	RA	Função
+Fábio Silva de Medeiros	10734804	Análise de Dados
+Samuel Batista de Oliveira	10738597	Modelagem Preditiva
+Marcus Moreira	10734633	Engenharia de Features
+Jackson Ventura	10737764	Visualização

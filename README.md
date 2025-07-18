@@ -67,3 +67,8 @@ print(
     f"📊 Probabilidade média de atrito: 83%"
 )
 ```
+
+## 📅 Próximos Passos
+- Implementar dashboard Power BI/Tableau
+- Testar técnicas avançadas de balanceamento
+- Integrar com sistema de RH via API

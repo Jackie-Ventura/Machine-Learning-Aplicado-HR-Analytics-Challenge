@@ -1,9 +1,6 @@
-# Machine-Learning-Aplicado-HR-Analytics-Challenge
 
 markdown
 # HR Analytics Challenge - Machine Learning para Previsão de Atrito
-
-![Banner de People Analytics](https://exemplo.com/banner-hr-analytics.jpg) *(opcional: incluir link para imagem real)*
 
 ## 📌 Visão Geral do Projeto
 Solução preditiva para reduzir em 20-30% a taxa de atrito (attrition) na TechCorp Brasil, com economia estimada de R$ 9-13,5 milhões/ano.

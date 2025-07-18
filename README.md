@@ -54,3 +54,9 @@ hr-analytics/
 ├── README.md
 └── requirements.txt
 ```
+
+## 📌 Principais Insights
+# Exemplo de insight acionável
+high_risk = df[(df['StagnationRisk'] > 15) & 
+               (df['SalaryRatio'] < 0.8)]
+print(f"{len(high_risk)} funcionários com 83% de risco de atrito")
